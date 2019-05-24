@@ -1,0 +1,23 @@
+# Ignore all
+/*
+!.gitignore    
+
+# Exempt directories
+# Also ignore all files except or sub directory path by default
+!ai-race/
+ai-race/*
+!ai-race/Assets
+ai-race/Assets/*
+!ai-race/Assets/Scripts
+ai-race/Assets/Scripts/*
+
+!unit-test-scripts/
+unit-test-scripts/*
+
+# Except CS and TXT files
+!ai-race/Assets/Scripts/*.cs
+!ai-race/Assets/*.text
+
+!unit-test-scripts/*.cs
+!unit-test-scripts/*.text
+!unit-test-scripts/*.asmdef
